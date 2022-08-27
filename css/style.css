@@ -71,16 +71,44 @@ header img{
   background-color: white;
 }
 
-footer {
-  color: rgb(0, 0, 0);
-  background-color: rgba(82, 82, 197, 0.514);
+footer{
+  background-color: rgba(27, 4, 49, 0.932);
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: white;
+}
+
+.footer-content{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  align-content: center;
-  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
+}
+
+.fa-brands{
+  color: white;
+  padding: 10px;
+}
+
+.fa-brands:hover{
+  color: #a467dd;
+}
+
+.footer-botton{
+  background-color: rgba(137, 43, 226, 0.432);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer-botton p{
+  font-size: 15px;
+  word-spacing: 3px;
+}
+
+.footer-botton span{
+  color: #a467dd;
 }
 
 /* MEDIA QUERYS 768px */
