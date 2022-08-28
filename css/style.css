@@ -79,6 +79,7 @@ footer{
   color: white;
 }
 
+/* Clase para centrar footer */
 .footer-content{
   display: flex;
   align-items: center;
@@ -155,6 +156,18 @@ header img{
   /* class para moficar las img de todos los html */
 .cuadrilla-imagenes {
   border: 3px rgba(82, 82, 197, 0.514) solid;
+}
+
+/* class para footer de contacto */
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  flex-direction: column;
+  padding: 20px;
+  color: white;
 }
 
 }
