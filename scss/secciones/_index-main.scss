@@ -5,8 +5,7 @@ main{
       }
       .setup {
         color: blueviolet;
-        font-size: 13px;
-        text-align: center;
+        @include fondo(13px);
       }
       .galeria {
         display: grid;
@@ -19,8 +18,7 @@ main{
         width: 250px;
         height: 250px;
         margin: 50px;
-        text-align: center;
-        font-size: 18px;
+        @include fondo(18px);
         overflow: hidden;
         background-color: white;
       }
