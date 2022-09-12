@@ -17,7 +17,7 @@ header {
       }
       .setup {
         color: rgb(254, 250, 255);
-        font-size: 16px;
+        font-size: 1rem;
         background-color: rgba(82, 82, 197, 0.514);
       }
       .galeria {
@@ -38,6 +38,7 @@ header {
         flex-direction: column;
         padding: 20px;
         color: white;
+        align-content: space-around
       }
 }
   
@@ -63,7 +64,7 @@ header {
           .setup {
             color: rgb(132, 0, 255);
             background-color: rgba(128, 0, 128, 0.26);
-            font-size: 20px;
+            font-size: 2rem;
           }
           .galeria {
             grid-template-columns: repeat(3, 20vh);

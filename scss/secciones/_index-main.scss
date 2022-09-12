@@ -16,10 +16,14 @@ main{
         border: 3px black solid;
         display: inline-block;
         width: 250px;
-        height: 250px;
+        height: 360px;
         margin: 50px;
         @include fondo(18px);
         overflow: hidden;
         background-color: white;
       }
+      .contac-main{
+        width: 100%;
+      }
+   
   }
